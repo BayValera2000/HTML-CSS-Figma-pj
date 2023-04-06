@@ -6,6 +6,9 @@
 ul{
     display: none;
 }
+.menu{
+    margin-right: 56px;
+}
 .header-inner{
     padding: 25px 0;
 }
@@ -61,9 +64,6 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-.burger-txt{
-    margin-right: 65px;
-}
 .header-link{
     margin-right: 29px;
 }
@@ -71,7 +71,7 @@ header{
     margin-right: 65px;
     color: #8B8B8B;
 }
-.header-text{
+.header-info{
     margin-right: 64px;
 }
 .header-search{
@@ -79,9 +79,11 @@ header{
     border-bottom: #8B8B8B 1px solid;
     color: #A8A8A8;
     max-width: 175px;
-    margin-right: 67px;
+    margin-right: 69px;
     padding-bottom: 10px;
     padding-top: 13px;
+    padding-right: 0;
+    padding-left: 0;
 }
 .section-photo{
     margin-right: 7px;
@@ -129,17 +131,14 @@ header{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     background-image: url('../images/Rectangle\ 30\ \(1\).png');
-    padding-bottom: 5px;
+    padding-bottom: 77px;
+    padding-top: 79px;
 }
 .discount h1{
-    padding-left: 134px;
     color: #FFFFFFFF;
-    padding-top: 79px;
-    margin-bottom: 83px;
-    font-size: 30px;
     margin-right: 31px;
-    margin-bottom: 77px;
     font-style: normal;
     font-weight: 900;
     font-size: 30px;
@@ -187,15 +186,15 @@ header{
     line-height: 30px;
 }
 .mini-div .txt{
-    margin-bottom: 36px;
+    padding-bottom: 36px;
     padding-left: 45px;
     padding-right: 39px;
+    padding-top: 34px; 
 }
 .payment-inner h2{
     padding-top: 40px;
 }
-.mini-div h3{
-    padding-top: 34px;   
+.mini-div h3{  
     font-weight: 600;
     font-size: 16px;
     margin: 0;
@@ -246,10 +245,10 @@ li a{
 .three p{
     color: #A8A8A8;
 }
-.two .header-link{
+.two > .header-link{
     color: #000000;
     font-weight: 400;
     font-size: 16px;
     display: flex;
-    
+    margin: 0;
 }
